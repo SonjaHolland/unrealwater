@@ -111,8 +111,8 @@ html,body{
     <!-- Startscherm -->
     <div id="startScreen">
 
-       
-        <img  src="https://www.utherverse.com/bucket/e847f042-abcc-40be-a93a-a912640a51da">
+        <!-- Thumbnail -->
+        <img id="thumbnail" src="https://img.youtube.com/vi/evv1l869OFo/maxresdefault.jpg">
 
         <!-- Rode knop -->
         <div id="powerButton" onclick="startVideo()">
@@ -136,9 +136,8 @@ function startVideo(){
     document.getElementById("playerContainer").style.display="block";
     document.getElementById("back").style.display="block";
 
-    // Playlist van deel 1 + deel 2
     document.getElementById("player").src =
-        "https://www.youtube.com/embed/mh2A1M2KB6c?playlist=evv1l869OFo&autoplay=1&controls=0&rel=0&modestbranding=1";
+        "https://www.youtube.com/embed/evv1l869OFo?autoplay=1&controls=0&rel=0&modestbranding=1";
 }
 
 function goBack(){
